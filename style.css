@@ -1,19 +1,18 @@
+
 body, html, h1, h2, h3, h4, h5, h6, ul{
 	padding: 0px;
 	margin: 0px;
 	font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
 }
 
-h1{
-	text-align: center;
-	padding: 20px 0px;
-	margin-bottom: 20px;
-	background-color: #3b5998;
-	color: white;
+header {
+	height: 100px;
+	background-color: #043399;
 }
 
-h1 strong {
-	letter-spacing: -1px;
+header img {
+	height: 100px;
+	border-radius: 3px;
 }
 
 input, select, form, ul {
@@ -61,6 +60,7 @@ input, select, form, ul {
 
 ul{
 	list-style-type: none;
+	background-color: white;
 }
 
 .location {
